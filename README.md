@@ -234,6 +234,7 @@ go run ./cmd/ctfcli/ status
 ## 贡献者
 
 <a href="https://github.com/Toyar-mo"><img src="https://github.com/Toyar-mo.png" width="48" height="48" alt="Toyar-mo"></a>
+<a href="https://github.com/fanjianlian"><img src="https://github.com/fanjianlian.png" width="48" height="48" alt="nitian"></a>
 
 贡献者列表持续更新中，欢迎提交 Pull Request 加入！
 
