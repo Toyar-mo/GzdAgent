@@ -231,6 +231,12 @@ go run ./cmd/ctfcli/ status
 - API Key 通过环境变量注入，不写入配置文件
 - 默认生成随机管理员密码，启动时打印
 
+## 贡献者
+
+<a href="https://github.com/Toyar-mo"><img src="https://github.com/Toyar-mo.png" width="48" height="48" alt="Toyar-mo"></a>
+
+贡献者列表持续更新中，欢迎提交 Pull Request 加入！
+
 ## License
 
 Apache License 2.0
