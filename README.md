@@ -104,10 +104,24 @@ ai:
 ### 启动
 
 ```bash
-./gzd-agent --config config.yaml
+./run.sh
 ```
 
 浏览器访问 `http://localhost:8080`，默认管理员账号 `admin`，初始密码在启动日志中打印。
+
+### CTF 竞赛专用配置启动
+
+针对 CTF 比赛场景，项目提供了专用的 `config-ctf.yaml`，启用更激进的竞速策略（WP 命中 → 直接用 Payload → 拿到 Flag → 结束，3 轮无结果立刻换策略）：
+
+```bash
+# 1. 编译
+go build -o gzd-agent ./cmd/server/
+
+# 2. 用 CTF 专用配置启动
+./gzd-agent --config config-ctf.yaml
+
+# 3. 在对话页面选择 "CTF 竞赛" 角色
+```
 
 ## 架构概览
 
