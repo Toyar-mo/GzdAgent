@@ -1,0 +1,52 @@
+# 二进制与构建产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/dist/
+/build/
+/coverage/
+
+# Go
+/vendor/
+*.prof
+*.pprof
+
+# 本地 SQLite 数据库
+*.db
+*.sqlite
+*.sqlite3
+data/
+runtime/
+
+# 日志
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 配置文件（含敏感信息）
+config.yaml
+config.local.yaml
+.env
+.env.local
+
+# Node / 前端
+node_modules/
+node_modules
+
+# Maven / Java 构建产物
+target/
+*.class
